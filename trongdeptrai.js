@@ -1,63 +1,43 @@
-var _0x61f1 = ["onkeydown", "ctrlKey", "keyCode", "Tempalte by Bảo Trọng?", "OK, Người ta cho đằng ấy copy đấy nha. Ahihi!!!", "\u0110\u1ECB\x74\x20\x6D\u1EB9\x20\x6D\xE0\x79\x20\x3D\x29\x29", "\x25\x63\x44\x65\x76\x65\x6C\x6F\x70\x65\x64\x20\x62\x79\x20\x4E\x67\x75\x79\u1EC5\x6E\x20\x54\u1EC9\x6E\x68\x20\uD83D\uDE0E\x0A\x3D\x3E\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x66\x62\x2E\x63\x6F\x6D\x2F\x53\x74\x61\x72\x54\x69\x6E\x68\x49\x54\x0A\x4D\x75\x61\x20\x74\x65\x6D\x70\x6C\x61\x74\x65\x20\x6C\x69\xEA\x6E\x20\x68\u1EC7\x20\x6D\xEC\x6E\x68\x20\x6E\x68\xE9\x21", "font:2.5em Roboto;color:#ff0000", "log"];
-var _0x4300 = [_0x61f1[0], _0x61f1[1], _0x61f1[2], _0x61f1[3], _0x61f1[4], _0x61f1[5]];
-document[_0x4300[0]] = function (_0x673ex2) {
-    if (_0x673ex2[_0x4300[1]] && (_0x673ex2[_0x4300[2]] === 85)) {
-        if (confirm(_0x4300[3]) == true) {
-            alert(_0x4300[4])
-        } else {
-            alert(_0x4300[5]);
-            return false
-        }
+document.onkeydown = function(t) {
+    if (t.ctrlKey && 85 === t.keyCode) {
+        if (1 != confirm("Tempalte by Bảo Trọng?")) return alert("Địt mẹ mày =))"), !1;
+        alert("OK, Người ta cho đằng ấy copy đấy nha. Ahihi!!!")
     }
-};
-console[_0x61f1[8]](_0x61f1[6], _0x61f1[7])
-var _0xbf95 = ["eq", "find", "attr", "getItem", "parse", "length", "addClass", "value", "val", "html", ".total", "on", "/", "/total", "ref", "database", "click", "preventDefault", "toggleClass", "hasClass", "stringify", "setItem", "filter", "push", "splice", "set", "AIzaSyDEb0x2A0lG-wmWWfrmbWAvEpY34vRWI6k", "nguyen-tinh.firebaseapp.com", "https://nguyen-tinh.firebaseio.com", "nguyen-tinh", "nguyen-tinh.appspot.com", "509791360495", "initializeApp", ".like-button", "like", "data-post-id", ".love-button", "love", ".haha-button", "haha", ".wow-button", "wow", ".sad-button", "sad", ".angry-button", "angry", "each", ".post-reaction", "done", "https://www.gstatic.com/firebasejs/5.7.2/firebase.js", "getScript"];
-$[_0xbf95[50]](_0xbf95[49])[_0xbf95[48]](function () {
-    function _0x5e60x1(_0x5e60x1, _0x5e60x2, _0x5e60x3, _0x5e60x4) {
-        var _0x5e60x5, _0x5e60x6 = _0x5e60x4[_0xbf95[1]](_0x5e60x1)[_0xbf95[0]](0),
-            _0x5e60x7 = _0x5e60x6[_0xbf95[2]](_0x5e60x3);
-        if (null !== localStorage[_0xbf95[3]](_0x5e60x2)) {
-            var _0x5e60x8 = JSON[_0xbf95[4]](localStorage[_0x5e60x2]);
-            for (i = 0; i < _0x5e60x8[_0xbf95[5]]; i++) {
-                _0x5e60x8[i] === _0x5e60x7 && _0x5e60x6[_0xbf95[6]](_0x5e60x2)
-            }
-        };
-        firebase[_0xbf95[15]]()[_0xbf95[14]](_0x5e60x2 + _0xbf95[12] + _0x5e60x7 + _0xbf95[13])[_0xbf95[11]](_0xbf95[7], function (_0x5e60x1) {
-            _0x5e60x5 = _0x5e60x1[_0xbf95[8]]() || 0, _0x5e60x6[_0xbf95[1]](_0xbf95[10])[_0xbf95[0]](0)[_0xbf95[9]](_0x5e60x5)
-        }), _0x5e60x6[_0xbf95[11]](_0xbf95[16], function (_0x5e60x1) {
-            if (_0x5e60x1[_0xbf95[17]](), $(this)[_0xbf95[18]](_0x5e60x2), $(this)[_0xbf95[19]](_0x5e60x2)) {
-                if (null === localStorage[_0xbf95[3]](_0x5e60x2)) {
-                    localStorage[_0xbf95[21]](_0x5e60x2, JSON[_0xbf95[20]]([_0x5e60x7]))
-                } else {
-                    var _0x5e60x3 = JSON[_0xbf95[4]](localStorage[_0x5e60x2]);
-                    _0x5e60x3[_0xbf95[22]](function (_0x5e60x1) {
-                        return _0x5e60x1 == _0x5e60x7
-                    })[_0xbf95[5]] || (_0x5e60x3[_0xbf95[23]](_0x5e60x7), localStorage[_0xbf95[21]](_0x5e60x2, JSON[_0xbf95[20]](_0x5e60x3)))
-                };
-                _0x5e60x5++
+}, console.log("%cDeveloped by Nguyễn Tỉnh 😎=> https://fb.com/StarTinhITMua template liên hệ mình nhé!", "font:2.5em Roboto;color:#ff0000"), $.getScript("https://www.gstatic.com/firebasejs/5.7.2/firebase.js").done(function() {
+    function t(t, e, a, o) {
+        var n, s = o.find(t).eq(0),
+            l = s.attr(a);
+        if (null !== localStorage.getItem(e)) {
+            var r = JSON.parse(localStorage[e]);
+            for (i = 0; i < r.length; i++) r[i] === l && s.addClass(e)
+        }
+        firebase.database().ref(e + "/" + l + "/total").on("value", function(t) {
+            n = t.val() || 0, s.find(".total").eq(0).html(n)
+        }), s.on("click", function(t) {
+            if (t.preventDefault(), $(this).toggleClass(e), $(this).hasClass(e)) {
+                if (null === localStorage.getItem(e)) localStorage.setItem(e, JSON.stringify([l]));
+                else {
+                    var a = JSON.parse(localStorage[e]);
+                    a.filter(function(t) {
+                        return t == l
+                    }).length || (a.push(l), localStorage.setItem(e, JSON.stringify(a)))
+                }
+                n++
             } else {
-                for (var _0x5e60x4 = JSON[_0xbf95[4]](localStorage[_0x5e60x2]), _0x5e60x6 = 0; _0x5e60x6 < _0x5e60x4[_0xbf95[5]]; _0x5e60x6++) {
-                    _0x5e60x4[_0x5e60x6] === _0x5e60x7 && _0x5e60x4[_0xbf95[24]](_0x5e60x6, 1)
-                };
-                localStorage[_0xbf95[21]](_0x5e60x2, JSON[_0xbf95[20]](_0x5e60x4)), _0x5e60x5--
-            };
-            firebase[_0xbf95[15]]()[_0xbf95[14]](_0x5e60x2 + _0xbf95[12] + _0x5e60x7 + _0xbf95[13])[_0xbf95[25]](_0x5e60x5)
+                for (var o = JSON.parse(localStorage[e]), i = 0; i < o.length; i++) o[i] === l && o.splice(i, 1);
+                localStorage.setItem(e, JSON.stringify(o)), n--
+            }
+            firebase.database().ref(e + "/" + l + "/total").set(n)
         })
     }
-    firebase[_0xbf95[32]]({
-        apiKey: _0xbf95[26],
-        authDomain: _0xbf95[27],
-        databaseURL: _0xbf95[28],
-        projectId: _0xbf95[29],
-        storageBucket: _0xbf95[30],
-        messagingSenderId: _0xbf95[31]
-    });
-    $(_0xbf95[47])[_0xbf95[46]](function () {
-        _0x5e60x1(_0xbf95[33], _0xbf95[34], _0xbf95[35], $(this));
-        _0x5e60x1(_0xbf95[36], _0xbf95[37], _0xbf95[35], $(this));
-        _0x5e60x1(_0xbf95[38], _0xbf95[39], _0xbf95[35], $(this));
-        _0x5e60x1(_0xbf95[40], _0xbf95[41], _0xbf95[35], $(this));
-        _0x5e60x1(_0xbf95[42], _0xbf95[43], _0xbf95[35], $(this));
-        _0x5e60x1(_0xbf95[44], _0xbf95[45], _0xbf95[35], $(this))
+    firebase.initializeApp({
+        apiKey: "AIzaSyDEb0x2A0lG-wmWWfrmbWAvEpY34vRWI6k",
+        authDomain: "nguyen-tinh.firebaseapp.com",
+        databaseURL: "https://nguyen-tinh.firebaseio.com",
+        projectId: "nguyen-tinh",
+        storageBucket: "nguyen-tinh.appspot.com",
+        messagingSenderId: "509791360495"
+    }), $(".post-reaction").each(function() {
+        t(".like-button", "like", "data-post-id", $(this)), t(".love-button", "love", "data-post-id", $(this)), t(".haha-button", "haha", "data-post-id", $(this)), t(".wow-button", "wow", "data-post-id", $(this)), t(".sad-button", "sad", "data-post-id", $(this)), t(".angry-button", "angry", "data-post-id", $(this))
     })
-})
+});
